@@ -9,9 +9,9 @@ const workers = require("./lib/workers");
 const helpers = require("./lib/helpers");
 const cli = require("./lib/cli");
 
-helpers.sendTwilioSms("4158375309", `Hello`, function(err) {
-  console.log(`Error: ${err}`);
-});
+// helpers.sendTwilioSms("4158375309", `Hello`, function(err) {
+//   console.log(`Error: ${err}`);
+// });
 
 // Declare the app
 const app = {};
