@@ -8,6 +8,7 @@ const server = require("./lib/server");
 const workers = require("./lib/workers");
 const helpers = require("./lib/helpers");
 const cli = require("./lib/cli");
+const database = require("./database/index");
 
 // helpers.sendTwilioSms("4158375309", `Hello`, function(err) {
 //   console.log(`Error: ${err}`);
@@ -16,6 +17,7 @@ const cli = require("./lib/cli");
 // Declare the app
 const app = {};
 
+database.init();
 // Init the function
 app.init = function() {
   // Start the server

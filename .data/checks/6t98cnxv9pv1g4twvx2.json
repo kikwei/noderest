@@ -1,1 +1,1 @@
-{"id":"6t98cnxv9pv1g4twvx2","userPhone":"700436967","protocol":"https","url":"twitter.com","method":"post","successCodes":[200,201,301,500],"timeoutSeconds":3}
+{"id":"6t98cnxv9pv1g4twvx2","userPhone":"700436967","protocol":"https","url":"twitter.com","method":"get","successCodes":[200,201,301,302,400,403,404,406,500],"timeoutSeconds":3}
