@@ -1,6 +1,6 @@
 /*
  * Primary file for the API
- * 
+ *
  */
 
 //Dependencies
@@ -34,6 +34,3 @@ app.init = function() {
 
 // Execute
 app.init();
-
-// Export the app
-module.exports = app;

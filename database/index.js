@@ -16,24 +16,24 @@ database.connection = () => {
       const db = client.db("NodeJS");
 
       // Inserting
-      db.collection("users").insertOne(
-        {
-          firstName: "William arapLagat",
-          lastName: "Kikwei",
-          phone: "0700436967",
-          password: "com_08_15",
-          tosAgreement: true
-        },
-        (err, result) => {
-          if (err) {
-            return console.log(
-              `This error occured while inserting user details: ${err}`
-            );
-          }
+      // db.collection("users").insertOne(
+      //   {
+      //     firstName: "Yamet Jackson",
+      //     lastName: "Keronei",
+      //     phone: "0729425343",
+      //     password: "com_08_16",
+      //     tosAgreement: true
+      //   },
+      //   (err, result) => {
+      //     if (err) {
+      //       return console.log(
+      //         `This error occured while inserting user details: ${err}`
+      //       );
+      //     }
 
-          console.log(JSON.stringify(result.ops, undefined, 2));
-        }
-      );
+      //     console.log(JSON.stringify(result.ops, undefined, 2));
+      //   }
+      // );
 
       // fetching/selecting
       // specific
